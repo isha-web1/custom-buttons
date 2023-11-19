@@ -1,0 +1,84 @@
+body {
+  background: #e0e5ec;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+ 
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+
+/* @layer utilities {
+  .frame {
+  @apply w-90 mx-auto text-center my-10;
+}
+} */
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+body {
+  @apply bg-blue-100;
+}
+
+h1 {
+  @apply relative text-center text-gray-800 text-6xl font-bold;
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  @apply text-center font-sans font-light text-base text-gray-600;
+}
+
+/* @responsive {
+  .w-90 {
+    width: 90%;
+  }
+} */
+
+body {
+  @apply bg-blue-100;
+}
+
+h1 {
+  @apply relative text-center text-gray-800 text-6xl font-bold;
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  @apply text-center font-sans font-light text-base text-gray-600;
+}
+
+
+
+button {
+  @apply m-5 ;
+
+}
+
+.custom-btn {
+  @apply inline-block w-32 h-10 text-white bg-transparent rounded-md px-6 py-2 font-sans font-medium
+    transition-all duration-300 ease-in-out relative cursor-pointer
+    shadow-inner inset-1 bg-gradient-to-r from-blue-800 to-blue-900
+    hover:bg-gradient-to-r from-blue-500 to-blue-600 focus:outline-none;
+}
+
+.btn-1 {
+  @apply bg-gradient-to-r from-blue-800 to-blue-900;
+  border: none;
+}
+
+.btn-1:hover {
+  @apply bg-gradient-to-r from-blue-500 to-blue-600;
+}
