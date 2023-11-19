@@ -82,3 +82,26 @@ button {
 .btn-1:hover {
   @apply bg-gradient-to-r from-blue-500 to-blue-600;
 }
+
+/* button-2 */
+.btn-2 {
+  @apply bg-gradient-to-r from-purple-600 to-purple-800; /* Adjust gradient colors accordingly */
+  border: none;
+  background: rgb(96,9,240);
+}
+
+.btn-2:before {
+  @apply h-0 w-2; /* Adjust height and width accordingly */
+}
+
+.btn-2:hover {
+  /* background-image: linear-gradient(to right, #fff, #9F7AEA); Adjust gradient colors accordingly */
+  box-shadow: 
+    4px 4px 6px 0 rgba(255,255,255,.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+/* button-3 */
+
