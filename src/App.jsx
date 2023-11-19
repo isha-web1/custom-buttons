@@ -8,6 +8,7 @@ function App() {
       <div className="frame">
       <button class="custom-btn btn-1 ">Read More</button>
       <button class="custom-btn btn-2 ">Read More</button>
+      <button class="custom-btn btn-3 ">Read More</button>
       </div>
     </>
   );

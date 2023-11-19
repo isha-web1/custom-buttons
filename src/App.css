@@ -105,3 +105,66 @@ button {
 
 /* button-3 */
 
+.btn-3 {
+  @apply bg-gradient-to-r from-blue-400 to-blue-600 w-32 h-10 text-white relative;
+  border: none;
+  line-height: 2.5rem; /* Adjust line-height accordingly */
+  padding: 0;
+}
+
+.btn-3 span {
+  @apply block w-full h-full relative;
+}
+
+.btn-3:before,
+.btn-3:after {
+  @apply absolute right-0 top-0 bg-blue-400 transition-all duration-300;
+}
+
+.btn-3:before {
+  @apply h-0 w-2;
+}
+
+.btn-3:after {
+  @apply w-0 h-2;
+}
+
+.btn-3:hover {
+  @apply bg-transparent shadow-none;
+}
+
+.btn-3:hover:before {
+  @apply h-full;
+}
+
+.btn-3:hover:after {
+  @apply w-full;
+}
+
+.btn-3 span:hover {
+  @apply text-blue-400;
+}
+
+.btn-3 span:before,
+.btn-3 span:after {
+  @apply absolute left-0 bottom-0 bg-blue-400 transition-all duration-300;
+}
+
+.btn-3 span:before {
+  @apply w-2 h-0;
+}
+
+.btn-3 span:after {
+  @apply w-0 h-2;
+}
+
+.btn-3 span:hover:before {
+  @apply h-full;
+}
+
+.btn-3 span:hover:after {
+  @apply w-full;
+}
+
+
+
